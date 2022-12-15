@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#cdcdcd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background-color: #dee1e6;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#display{
+    background-color:#f1f3f4;
+    width: 230px;
+    height: 40px;
+    position: relative;
+    left: 25px;
+    top: 20px;
+    border-radius: 15px;
+    font-size: 35px;
+    padding: 10px;
+    text-align: end;
+    font-weight: bold;
+    inline-size :230px;
+    overflow-y:auto;
+}
+#display1{
+    background-color:#f1f3f4;
+    width: 230px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    font-size: 16px;
+    padding: 10px;
+    text-align: end;
+    color: #757b85;
+}
+.button{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: 30px;
+    left: 25px;
+    border-radius: 45%;
+    border: none;
+    margin: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    display: inline;
+    flex-wrap: wrap;
+}
+.button:focus{
+    background-color:#dee1e6;
+}
+#button1{
+    width: 110px;
+    height: 45px;
+    position: relative;
+    top: 30px;
+    left: 25px;
+    border: none;
+    border-radius: 15px;
+    margin: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    display: inline;
+    flex-wrap: wrap;
+    background-color: #00ffd7;
+}
+#cos{
+    display: none;
+}
+#log{
+    display: none;
+}
+#sin{
+    display: none;
+}
+#tan{
+    display: none;
+}
+#fb{
+    display: none;
+}
+#lb{
+    display: none;
+}
+#dott{
+    display: none;
+}
+#n{
+    display: none;
+}
+#in{
+    display: none;
+}
+#ac{
+    background-color: red;
+}
+h1{
+    font-weight: bold;
+    color: red;
+    margin-top: 30px;
+}
